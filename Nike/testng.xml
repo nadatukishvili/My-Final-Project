@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite"  parallel="tests">
+
+    <test name="LoginPageTest" parallel="tests" >
+        <classes>
+            <class name="LogInPage"/>
+
+        </classes>
+    </test>
+
+
+    <test name="CreateNewAccountTest" parallel="tests" >
+        <classes>
+            <class name="CreateClubAccount"/>
+
+        </classes>
+    </test>
+
+    <test name="filterCheckTest" parallel="tests" >
+        <classes>
+            <class name="CheckFilter"/>
+
+        </classes>
+    </test>
+
+</suite>
